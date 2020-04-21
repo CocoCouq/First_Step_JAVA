@@ -9,7 +9,7 @@ public class SwitchValue
     public static double defineNumber(String message)
     {
         System.out.println(message);
-        double number = READ.nextFloat();
+        double number = READ.nextDouble();
         return number;
     }
 

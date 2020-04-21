@@ -10,7 +10,7 @@ public class Circle
         System.out.println("Entrer le rayon: ");
         Scanner readEntry = new Scanner(System.in);
 
-        return readEntry.nextFloat() ;
+        return readEntry.nextDouble() ;
     }
 
     // Circonférence
