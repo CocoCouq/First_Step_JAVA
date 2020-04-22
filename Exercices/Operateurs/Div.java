@@ -13,7 +13,7 @@ public class Div
 
     // MAIN
     public static void main(String[] args) {
-        System.out.println("**** Diviseur (V1.0 - 05/20) ****");
+        System.out.println("**** Diviseur (V1.0 - 04/20) ****");
 
         double nbr1 = readNumber("Nombre 1:");
         double nbr2 = readNumber("Divisé par:");
