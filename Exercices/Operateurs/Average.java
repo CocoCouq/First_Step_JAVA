@@ -11,8 +11,7 @@ public class Average {
     }
 
     // Average
-    public static float average(float[] tabNotes)
-    {
+    public static float average(float[] tabNotes) {
         float sum = 0;
         int i = -1;
 
