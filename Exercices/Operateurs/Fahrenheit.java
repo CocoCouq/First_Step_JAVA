@@ -1,12 +1,10 @@
 import java.util.*;
 
-public class Fahrenheit
-{
+public class Fahrenheit {
     final static Scanner READ = new Scanner(System.in);
 
     // Convert in Fahrenheit
-    public static double convertFahr(double fahr)
-    {
+    public static double convertFahr(double fahr) {
         return ((fahr - 32) * 5) / 9;
     }
 
