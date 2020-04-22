@@ -19,7 +19,7 @@ public class Ages {
             u20 += currentAge < 20 ? 1 : 0;
             s40 += currentAge > 40 ? 1 : 0;
             betw += (currentAge >= 20 && currentAge <= 40) ? 1 : 0;
-            
+
             // new value
             System.out.println("Entrez un nouvel age ou terminez par le centenaire :");
             currentAge = READ.nextInt();
