@@ -9,7 +9,6 @@ public class IsPrime {
 
     // Define if is prime or not
     public static boolean isPrime(long nbr) {
-        boolean isPrime;
         long i = 3;
 
         if (nbr <= 1)
@@ -19,6 +18,7 @@ public class IsPrime {
         else if (nbr % 2 == 0)
             return false;
         else {
+            // Can use Math.sqrt
             while (i * i <= nbr) {
                 if (nbr % i == 0)
                     return false;
@@ -43,6 +43,5 @@ public class IsPrime {
             System.out.println("Premier");
         else
             System.out.println("Non premier");
-
     }
 }
