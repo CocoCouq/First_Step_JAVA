@@ -1,4 +1,6 @@
-import java.util.*;
+package com.Conditions;
+
+import java.util.Scanner;
 
 public class EvenNumber {
     final static Scanner READ = new Scanner(System.in);

@@ -1,4 +1,6 @@
-import java.util.*;
+package com.Operateurs;
+
+import java.util.Scanner;
 
 public class Div
 {

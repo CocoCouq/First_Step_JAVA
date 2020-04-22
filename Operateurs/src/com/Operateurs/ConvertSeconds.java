@@ -1,4 +1,6 @@
-import java.util.*;
+package com.Operateurs;
+
+import java.util.Scanner;
 
 public class ConvertSeconds {
     final static Scanner READ = new Scanner(System.in);
@@ -16,7 +18,6 @@ public class ConvertSeconds {
 
         return hours+":"+minutes+":"+seconds;
     }
-
 
     // MAIN
     public static void main(String[] args) {
