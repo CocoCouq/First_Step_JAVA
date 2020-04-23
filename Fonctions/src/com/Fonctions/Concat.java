@@ -14,6 +14,7 @@ public class Concat {
     public static void main(String[] args) {
         System.out.println("**** Concatenation (V1.0 - 04/20) ****");
 
+        // Ask strings
         System.out.println("String 1 :");
         String str1 = READ.nextLine();
         System.out.println("String 2 :");
