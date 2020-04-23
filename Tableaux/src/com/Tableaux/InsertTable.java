@@ -2,7 +2,7 @@ package com.Tableaux;
 
 import java.util.Scanner;
 
-public class DeleteValue {
+public class InsertTable {
     final static Scanner READ = new Scanner(System.in);
 
     // To define double
