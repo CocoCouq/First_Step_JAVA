@@ -1,6 +1,5 @@
 package com.Tableaux;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class DeleteValue {
@@ -16,15 +15,24 @@ public class DeleteValue {
 
     // Replace name
     public static void catchName(String[] tab, String str) {
+        // Save table to lower case
+        String[] tabL = new String[tab.length];
+        int l = -1;
+        for (String s : tabL) {
+            tabL[++l] = tab[l].toLowerCase();
+        }
+        str = str.toLowerCase();
+
         // All variables
         int i = -1, j = -1, k = 0, sv = 0, lenStr = -1;
-        int len = tab.length - 1;
+        int len = tabL.length - 1;
+
         // Test
         while (++i != len+1 && sv != lenStr) {
             lenStr = str.length() - 1;
 
             while (++j != lenStr)
-                k += tab[i].charAt(j) == str.charAt(j) ? 1 : 0;
+                k += tabL[i].charAt(j) == str.charAt(j) ? 1 : 0;
             // Save value before reinitialize k
             sv = k == lenStr ? k : sv;
             k = 0;
@@ -41,7 +49,7 @@ public class DeleteValue {
     }
 
     public static void main(String[] args) {
-        System.out.println("**** Suppression d'un prenom (V1.0 - 04/20) ****");
+        System.out.println("**** Suppression d'un prenom (Volontaire : Test char par char - Contrainte perso) (V1.0 - 04/20) ****");
 
         // Define table
         String[] tabFisrtN = {
