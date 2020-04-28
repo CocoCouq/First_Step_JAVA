@@ -7,10 +7,11 @@ public class CallShape {
     public static void exec() {
         System.out.println("|| Forme                  (V1.0 - 04/20) ||");
 
-        Triangle triangle = new Triangle();
         // Define base and height
-        triangle.base = Lib.readDouble("Quelle est la base :");
-        triangle.height = Lib.readDouble("Quelle est la hauteur :");
+        double base = Lib.readDouble("Quelle est la base :");
+        double height = Lib.readDouble("Quelle est la hauteur :");
+
+        Triangle triangle = new Triangle(base, height);
 
         System.out.printf("Aire est de %f", triangle.area());
     }

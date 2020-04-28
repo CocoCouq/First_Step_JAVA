@@ -12,6 +12,7 @@ public class Objects {
         System.out.printf("||   1 : Cercles de 10 et 45                      ||%n");
         System.out.printf("||   2 : Tri de Tableaux                          ||%n");
         System.out.printf("||   3 : Formes Géométriques                      ||%n");
+        System.out.printf("||   4 : Véhicules                                ||%n");
         System.out.printf("||________________________________________________||%n");
         System.out.printf("||                                                ||%n");
         System.out.printf("||          QUEL EXERCICE SOUHAITEZ VOUS ?        ||%n");

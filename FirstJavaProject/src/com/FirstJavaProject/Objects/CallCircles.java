@@ -5,10 +5,8 @@ public class CallCircles {
     public static void exec() {
         System.out.println("|| Cercles de 10 et 45            (V1.0 - 04/20) ||");
 
-        Circles circle1 = new Circles();
-        circle1.radius = 10;
-        Circles circle2 = new Circles();
-        circle2.radius = 45;
+        Circles circle1 = new Circles(10);
+        Circles circle2 = new Circles(45);
 
         // Results
         System.out.println("Cercle de 10cm de rayon :");

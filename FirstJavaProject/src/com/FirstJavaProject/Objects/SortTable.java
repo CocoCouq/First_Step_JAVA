@@ -5,8 +5,8 @@ import com.FirstJavaProject.Lib;
 import java.util.Arrays;
 
 public class SortTable {
-    public int len;
-    public long[] tab;
+    private int len;
+    private long[] tab;
 
     // Define length
     public void initTable() {
