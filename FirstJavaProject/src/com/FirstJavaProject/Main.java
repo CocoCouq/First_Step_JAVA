@@ -3,6 +3,7 @@ package com.FirstJavaProject;
 import com.FirstJavaProject.Conditions.Conditions;
 import com.FirstJavaProject.Functions.Functions;
 import com.FirstJavaProject.Loops.Loops;
+import com.FirstJavaProject.Objects.Objects;
 import com.FirstJavaProject.Operators.Operators;
 import com.FirstJavaProject.Syntax.Syntax;
 import com.FirstJavaProject.Tables.Tables;
@@ -39,6 +40,11 @@ public class Main {
             case 6:
                 exercise = Functions.functionsList();
                 Functions.exec(exercise);
+                break;
+            case 7:
+                exercise = Objects.objectsList();
+                Objects.exec(exercise);
+                break;
             default:
                 System.out.println("Pas de catégory correspondante");
         }
