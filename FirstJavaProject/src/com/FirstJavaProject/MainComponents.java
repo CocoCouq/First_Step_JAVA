@@ -21,6 +21,7 @@ public class MainComponents {
         System.out.printf("||     5 :  Tableaux      |        en Java        ||%n");
         System.out.printf("||     6 :  Fonctions     |                       ||%n");
         System.out.printf("||     7 :  Objets        |                       ||%n");
+        System.out.printf("||     8 :  Objets Suppl  |                       ||%n");
         System.out.printf("||================================================||%n");
         System.out.printf("||________________________________________________||%n");
         System.out.printf("||                                                ||%n");
